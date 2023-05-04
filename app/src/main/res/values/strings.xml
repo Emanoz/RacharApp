@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RacharApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ViewPagerTitle0">Gerencie seu dinheiro dividido</string>
+    <string name="ViewPagerSubTitle0">Você pode facilmente gerenciar aquele dinheiro rachado com seus amigos ou parceira(o)</string>
+</resources>

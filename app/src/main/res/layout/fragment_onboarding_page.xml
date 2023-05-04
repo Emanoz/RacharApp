@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.OnboardingPageFragment"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:layout_marginBottom ="42dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/SubTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/skipButton"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
